@@ -1,0 +1,21 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+namespace OLMJ{
+
+public class NextScene : MonoBehaviour
+{
+    public string scenename;
+
+    void OnTriggerEnter(Collider other)
+    {
+        if(other.CompareTag("Player"))
+        {
+            SceneManager.LoadScene(scenename);
+        }
+    }
+}
+
+}

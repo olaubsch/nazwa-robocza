@@ -1,0 +1,14 @@
+{
+    "name": "Tests",
+    "references": [
+        "Unity.TextMeshPro",
+        "Assembly-CSharp",
+        "UnityEngine"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [
+        
+    ]
+}
